@@ -27,8 +27,9 @@
       <div class="header-text">
         <p>Web Developer | GITA Autonomous College</p>
         <h1>
-          Hi, I'm
-          <span id="firsttext" class="typing-animation">Anish Kumar</span>
+          Hi, I'm<span id="firsttext" class="typing-animation typing">
+          <span id="firsttext" class="typing-animation "  >Anish Kumar</span>
+         
           <br />
           from<in> INDIA</in>
         </h1>
@@ -115,12 +116,12 @@
   <div id="services" class="container1">
     <h1>Certifications</h1>
     <div class="image-container">
+      <div class="image"><img src="images/ANISH KUMAR (4)_page-0001.jpg" alt="Error Loading Image"></div>
       <div class="image"><img src="images/javaCertificate_page-0001.jpg" alt="Error Loading Image"></div>
       <div class="image"><img src="images/cssCertificate_page-0001.jpg" alt="Error Loading Image"></div>
       <div class="image"><img src="images/Anish Kumar - Participation Certificate (1)_page-0001.jpg"
           alt="Error Loading Image"></div>
-            <div class="image"><img src="images/LUEJSDEC123610_page-0001.jpg" 
-          alt="Error Loading Image"></div>
+
     </div>
     <div class="popup-image">
       <span>&times;</span>
@@ -221,7 +222,7 @@
                 class="fa-brands fa-linkedin"></i></a>
                 <a href="https://github.com/anishkumar1412"><i class="fa-brands fa-github"></i></a>
           </div>
-          <a href="images/ANISH KUMAR.pdf" download class="btn btn2">Download CV</a>
+          </i><a href="images/ANISH KUMAR.pdf" download class="btn btn2">Download CV <i class="fa-solid fa-file-lines cv " style="color: #ffffff;"></i></a>
         </div>
         <div class="contact-right">
           <form name="submit-to-google-sheet">
@@ -230,7 +231,7 @@
             Message:<textarea name="Message" rows="6" class="textarea" placeholeder="Your Message "></textarea>
 
             <!-- <button type="submit" class="btn btn2">submit</button> -->
-            <button type="submit" class="btn btn2">Submit</button>
+            <button type="submit" class="btn btn2">Submit <i class="fa-solid fa-paper-plane cv" style="color: #ffffff;"></i></button>
           </form>
           <span id="msg"></span>
         </div>
@@ -293,6 +294,16 @@
     document.querySelector('.popup-image span').onclick = () => {
       document.querySelector('.popup-image').style.display = 'none';
     }
+
+    </script>
+<script>
+
+  var typed = new Typed(".typing",{
+    strings:["","Fronted Developer","Java Programmer","Freelancer"],
+    typeSpeed:100,
+    BackSpeed:60,
+    loop:true
+  })
   </script>
 </body>
 
